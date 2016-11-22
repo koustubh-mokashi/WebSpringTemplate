@@ -1,0 +1,10 @@
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/dao/impl/UserDAO.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/services/UserSampleController.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/exception/UserNotFoundException.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/bo/UserBO.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/dao/IUserDAO.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/vo/UserVO.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/exception/advice/UserExceptionControllerAdvice.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/model/User.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/exception/advice/ErrorResponse.java
+/home/afour/workspace/WebSpringTemplate/src/main/java/com/template/dao/impl/BaseDAO.java
