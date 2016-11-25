@@ -13,11 +13,40 @@
 		<junit.version>3.8.1</junit.version>
 		<jackson.version>2.5.3</jackson.version>
 		<mysql.connector.version>5.1.31</mysql.connector.version>
-		<springframework.version>4.2.0.RELEASE</springframework.version>
+		<springframework.version>4.3.1.RELEASE</springframework.version>
 		<logback.version>1.1.7</logback.version>
+		<springsecurity.version>4.1.1.RELEASE</springsecurity.version>
+		<springsecurityoauth2.version>2.0.10.RELEASE</springsecurityoauth2.version>
 	</properties>
 
 	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${springsecurity.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${springsecurity.version}</version>
+		</dependency>
+
+		<!-- Spring Security OAuth2 -->
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>${springsecurityoauth2.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -30,6 +59,11 @@
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${springframework.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
